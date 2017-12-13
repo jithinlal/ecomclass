@@ -26,5 +26,5 @@ abstract class Controller{
         }else{
             require $view;
         }
-    }
+    }       
 }

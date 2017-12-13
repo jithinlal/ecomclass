@@ -23,5 +23,9 @@
        return $brands;
     }
     
-    
+    public function getProducts(){
+        $this->query('SELECT * FROM products');
+        $products = $this->resultSet();
+        return $products;
+    }
  }

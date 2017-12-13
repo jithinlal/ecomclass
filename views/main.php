@@ -36,22 +36,21 @@
             </div>
             <?php require $view; ?>
             <div id="content_area">                    
-                    <div id="shopping_cart">
-                        <span style="float:right;font-size:18px;padding:5px;line-height:40px;">                            
-                            Welcome <b>USER</b> <b style="color:yellow">Shopping Cart</b>                     
-                             Items:0 Price:0 <a href="" class="btn btn-outline-primary">Goto Cart</a>                            
-                             <a class="btn btn-success" role="button" href="">Login</a>                            
-                             <a href="" class="btn btn-danger" role="button">Logout</a>
-                        </span>
-                    </div>
-                    <div class="products_box">
-                        Here the products list comes in
-                    </div>
-                    <div id="footer">
-                        <h2 style="text-align:center;padding-top:30px;">&copy;</h2>
-                    </div>
+                <div id="shopping_cart">
+                    <span style="float:right;font-size:18px;padding:5px;line-height:40px;">                            
+                        Welcome <b>USER</b> <b style="color:yellow">Shopping Cart</b>                     
+                         Items:0 Price:0 <a href="" class="btn btn-outline-primary">Goto Cart</a>                            
+                         <a class="btn btn-success" role="button" href="">Login</a>                            
+                         <a href="" class="btn btn-danger" role="button">Logout</a>
+                    </span>
+                </div>
+                <div class="products_box">  
+                    
+                </div>
+                <div id="footer">
+                    <h2 style="text-align:center;padding-top:30px;">&copy;</h2>
                 </div>
             </div>
-        </div>
+        </div>        
     </body>
 </html>

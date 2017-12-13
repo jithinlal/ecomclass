@@ -10,6 +10,7 @@
         private $controller;
         private $action;
         private $request;
+        private $params;
         
         public function __construct($request) {
             $this->request = $request;
@@ -23,6 +24,12 @@
                 $this->action = 'index';
             }else{
                 $this->action = $this->request['action'];
+            }
+            
+            if($this->request['id'] == ''){
+                $this->params = '';
+            }else{               
+                $this->params = $this->request['id'];                
             }
         }
         

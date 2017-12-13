@@ -13,9 +13,11 @@
     require 'classes/Controller.php';
     require 'classes/Model.php';
     //require controllers
-    require 'controllers/home.php';
+    require 'controllers/home.controller.php';
+    require 'controllers/customer.controller.php';
     //require models
-    require 'models/home.php';
+    require 'models/home.model.php';
+    require 'models/customer.model.php';
   
     $bootstrap = new Bootstrap($_GET);
     $controller = $bootstrap->createController();

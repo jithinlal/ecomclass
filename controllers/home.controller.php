@@ -9,7 +9,7 @@
 class Home extends Controller{
     protected function Index(){
         $viewmodel = new HomeModel(); 
-        $brandandcats = array("key1" => $viewmodel->getCategories(), "key2" => $viewmodel->getBrands());        
-        $this->returnView($brandandcats, true);        
+        $brandandcats = array("categories" => $viewmodel->getCategories(), "brands" => $viewmodel->getBrands(),"products" => $viewmodel->getProducts());        
+        $this->returnView($brandandcats, true);                       
     }       
 }
